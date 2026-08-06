@@ -1,24 +1,32 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>login-page</title>
-    <link rel="stylesheet" href="./style.css" />
-  </head>
-  <body>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SignUp-Page</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
     <div class="main-container">
-      <form action="">
+    <form action="">
         <div class="login-box">
           <h1>welcome</h1>
-          <p>start your login work...</p>
-          <div class="input-group">
+          <p>start your signUp...</p>
+        <div class="input-group">
             <label for="name">Name</label>
             <input
               type="text"
               class="name"
               id="name"
               placeholder="enter your name"
+              required
+            />
+            <label for="number">Number</label>
+            <input
+              type="number"
+              class="number"
+              id="number"
+              placeholder="enter your mobile number"
               required
             />
 
@@ -36,21 +44,15 @@
               type="password"
               class="pass"
               id="pass"
-              placeholder="enter your password"
+              placeholder="set your password"
               required
             />
-          </div>
-          <div id="forget" >
-          <a href="./forgot.html">forgot password??</a> <br>
-            </div>
-          <button type="submit" class="button">login</button>
-
-          <div id="signup">
-            don't you have an account??
-            <a href="./signup.html">signUp here..</a>
-          </div>
         </div>
-      </form>
+          
+        <button type="submit" class="button">SignUp</button>
+
     </div>
-  </body>
+    </form>
+    </div>
+</body>
 </html>
