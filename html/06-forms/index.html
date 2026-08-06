@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>06-html forms</title>
+</head>
+<body>
+    <!-- <h1>html forms</h1> -->
+
+    <!-- <form action="./submit.html">
+        <input type="text" placeholder="enter name">
+        <input type="submit" value="submit">
+   i </form> -->
+
+    <h2>students registration form</h2>
+    <form action="">
+        <label for="name"> name
+            <input id="name" type="text" placeholder="enter your name">
+        </label>
+        <br>
+        <br>
+        <label for="email"> email
+            <input id="email" type="email" placeholder="enter your email">
+        </label>
+        <br><br>
+        <label for="pass"> password
+            <input id="pass" type="password" placeholder="enter your pass">
+        </label>
+        <br><br>
+        <label for="dob"> dob
+            <input id="dob" type="date" placeholder="enter your dob">
+        </label>
+        <br><br>
+        <label for="course">course
+            <!-- <input id="course" type="text" placeholder="enter your name"> -->
+            <select name="course" id="course">
+                <option value="mern">MERN</option>
+                <option value="ai">AI</option>
+                <option value="html">HTML</option>
+                <option value="css">CSS</option>
+            </select>
+        </label> <br><br>
+        <label for="name"> name:
+            <!-- <br> -->
+            <!-- <input id="name" type="text" placeholder="enter your name"> -->
+            <label for="male">male</label>
+            <input type="radio" name="gender" id="male">
+            <label for="female">female</label>
+            <input type="radio" name="gender" id="female">
+        </label>
+        <br><br>
+        <label for="box">i agree</label>
+            <input type="checkbox" name="checkbox" id="box">
+        <br><br>
+            <label for="file">file</label>
+            <input type="file" name="file" id="file">
+    <br><br>
+        <input type="submit"></input>
+        <input type="reset"></input>
+    
+    
+    </form>
+</body>
+</html>

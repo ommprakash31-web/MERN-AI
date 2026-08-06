@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    *{
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+    }
+    body{
+        height: 100vh;
+        /* text-align: center; */
+        background: linear-gradient(135deg, blue, lightblue);
+        margin: auto;
+    }
+    #top-heading{
+        text-align: center;
+        color: white;
+        /* margin: ; */
+    }
+    .container{
+        margin-top: 30px;
+        font-size: 20px;
+    }
+    .container p{
+        background-color: red;
+    }
+    .container>p{
+        background-color: green;
+    }
+    .container > p + p {
+        background-color: blue;
+    }
+    /* .paragraph{
+        margin-top: 20px;
+        color: white;
+        background-color:darkcyan;
+    } */
+    hr{
+        margin-top: 10px;
+    }
+
+</style>
+<body>
+    <h1 id="top-heading">heading with id</h1>
+    <div class="container">
+        <p class="paragraph" >Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores dicta iste, sequi nobis nam, suscipit necessitatibus animi natus voluptatem debitis deleniti. Exercitationem dolorem sequi sit similique nostrum rerum quibusdam! Provident, mollitia expedita? Dicta, repellendus! Amet vel dolores quo doloribus repudiandae pariatur expedita a non, exercitationem dolorem nemo! Necessitatibus, quos aut.</p>
+        <hr>
+        <p class="paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores dicta iste, sequi nobis nam, suscipit necessitatibus animi natus voluptatem debitis deleniti. Exercitationem dolorem sequi sit similique nostrum rerum quibusdam! Provident, mollitia expedita? Dicta, repellendus! Amet vel dolores quo doloribus repudiandae pariatur expedita a non, exercitationem dolorem nemo! Necessitatibus, quos aut.</p>
+        <hr>
+        <p class="paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores dicta iste, sequi nobis nam, suscipit necessitatibus animi natus voluptatem debitis deleniti. Exercitationem dolorem sequi sit similique nostrum rerum quibusdam! Provident, mollitia expedita? Dicta, repellendus! Amet vel dolores quo doloribus repudiandae pariatur expedita a non, exercitationem dolorem nemo! Necessitatibus, quos aut.</p>
+        <hr>
+
+        <div id="input-fields">
+            <label for="name">Name: </label>
+            <input type="text" id="name" placeholder="enter your name">
+
+            <label for="phone">Phone: </label>
+            <input type="number" id="number" placeholder="enter your phone number">
+        </div>
+
+        <hr>
+
+        <div id="article-div">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia modi, aliquam nulla praesentium inventore voluptas fugiat quidem cum expedita sapiente minima dolore voluptatibus? In vel quo nemo saepe illum iste, repellat impedit! Rerum per
+                
+                <p id="nested-paragraph">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iusto sapiente ducimus consectetur fuga, consequatur, repudiandae distinctio voluptatibus unde quasi laborum neque omnis deleniti. Laborum aperiam aut, vitae obcaecati voluptates molestias veniam alias facere exercitationem quaerat ab consectetur minus nam quas ullam commodi voluptatum temporibus inventore numquam consequuntur expedita repellat autem?</p>
+                
+                ferendis, autem, ea sed unde voluptas facere laudantium, nesciunt culpa aliquam delectus ut! Blanditiis totam itaque numquam iure odit porro doloribus, sequi voluptates sit error doloremque recusandae aspernatur, fuga nemo pariatur cupiditate maiores eligendi. Officia deleniti vel, vero at accusamus possimus quae commodi qui? Ea, aliquam! Quia vero cum ut itaque veniam vel magnam sint recusandae quisquam in. Omnis dolorum aperiam optio quos culpa deleniti, dicta delectus.
+
+            </p>
+        </div>
+
+        <div class="hover">
+            <button id="button">hover me: </button>
+        </div>
+    </div>
+</body>
+</html>

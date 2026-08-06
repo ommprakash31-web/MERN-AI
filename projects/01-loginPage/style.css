@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    background: linear-gradient(to right, gray, white);
+}
+h1{
+    text-align: center;
+}
+p{
+    margin-bottom: 20px;
+    font-size: 20px;
+    font-weight: bold;
+}
+label{
+    display: block;
+    text-align: left;
+    font-weight: bold;
+}
+.input-group{
+    text-align: center;
+    padding: 25px;
+    background: white;
+
+}

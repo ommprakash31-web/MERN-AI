@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Registration Form</title>
+</head>
+<body>
+    <form action="./success.html">
+        <h1>student registration form</h1>
+        <br>
+       <label for="name">name:
+        <input type="text" id="name" placeholder="enter your name">
+       </label> 
+       <br><br>
+       <label for="email">email:
+        <input type="email" id="email" placeholder="enter your email">
+       </label>
+       <br><br>
+       <label for="pass">pass:
+        <input type="password" id="pass" placeholder="enter your password">
+       </label>  
+       <br><br>
+       <label for="num">number:
+        <input type="number" id="num" placeholder="enter your number">
+       </label> 
+       <br><br>
+       <label for="dob">date of birth:
+        <input type="date" id="dob" placeholder="enter your dob">
+       </label> 
+       <br><br>
+       <label for="gender">Gender: </label>
+       <label for="male">male
+        <input type="checkbox" id="male">
+       </label> 
+       <label for="female">female:
+        <input type="checkbox" id="female">
+       </label> 
+       <br><br>
+       <label for="skills">skills:
+        <!-- <input type="text" id="name" placeholder="enter your name"> -->
+            <select name="skills" id="skills">
+                <option value="frontend">frontend</option>
+                <option value="backend">backend</option>
+                <option value="fullstack">fullstack</option>
+                <option value="hacker">hacker</option>
+            </select>
+       </label> 
+       <br><br>
+        <label for="course">course:
+        <!-- <input type="text" id="name" placeholder="enter your name"> -->
+            <select name="course" id="course">
+                <option value="webDev">Web development</option>
+                <option value="java">java</option>
+                <option value="python">python</option>
+                <option value="c++">cpp</option>
+            </select>
+       </label>
+       <br><br>
+       <label for="address">adress:
+            <textarea name="adress" id="adress" placeholder="enter your address"></textarea>
+       </label> 
+       <br><br>
+       <label for="resume">Resume
+        <input type="file">
+       </label>
+       <br><br>
+       <input type="submit">
+       <input type="reset">
+    </form>
+</body>
+</html>
