@@ -1,0 +1,315 @@
+/* =========================================
+   GLOBAL STYLES
+========================================= */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background: #f7f8fc;
+  color: #171717;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* =========================================
+   FIXED NAVBAR
+========================================= */
+
+.navbar {
+  position: fixed;
+
+  top: 0;
+  left: 0;
+  right: 0;
+
+  height: 70px;
+
+  background: white;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  padding: 0 80px;
+
+  z-index: 1000;
+
+  box-shadow: 0 3px 15px rgba(0, 0, 0, 0.08);
+}
+
+/* LOGO */
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+
+  position: relative;
+}
+
+.logo span {
+  color: #f59e0b;
+}
+
+/* NAVIGATION */
+
+nav {
+  display: flex;
+  gap: 35px;
+}
+
+nav a {
+  position: relative;
+
+  font-size: 15px;
+
+  transition: 0.3s;
+}
+
+nav a:hover {
+  color: #6c4df6;
+}
+
+/* =========================================
+   HERO
+========================================= */
+
+.hero {
+  min-height: 650px;
+
+  padding-top: 150px;
+
+  position: relative;
+
+  overflow: hidden;
+
+  background: #111827;
+
+  color: white;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero-content {
+  width: 800px;
+
+  text-align: center;
+
+  position: relative;
+
+  z-index: 5;
+}
+
+.eyebrow {
+  color: #a78bfa;
+
+  font-size: 14px;
+
+  letter-spacing: 3px;
+
+  margin-bottom: 20px;
+}
+
+.hero h1 {
+  font-size: 64px;
+
+  line-height: 1.1;
+
+  margin-bottom: 25px;
+}
+
+.hero h1 span {
+  color: #8b5cf6;
+}
+
+.hero-description {
+  max-width: 650px;
+
+  margin: auto;
+
+  color: #cbd5e1;
+
+  font-size: 18px;
+
+  line-height: 1.7;
+
+  margin-bottom: 35px;
+}
+
+/* =========================================
+   BUTTON
+========================================= */
+
+.hero-button {
+  display: inline-block;
+
+  padding: 15px 30px;
+
+  background: #7c3aed;
+
+  color: white;
+
+  border-radius: 8px;
+
+  transition:
+    transform 0.3s ease,
+    background 0.3s ease;
+}
+
+.hero-button:hover {
+  transform: translateY(-5px);
+
+  background: #6d28d9;
+}
+
+/* =========================================
+   ABSOLUTE BADGE
+========================================= */
+
+.floating-badge {
+  position: absolute;
+
+  top: 150px;
+  right: 150px;
+
+  width: 80px;
+  height: 80px;
+
+  border-radius: 50%;
+
+  background: #facc15;
+
+  color: #111;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  font-weight: bold;
+
+  transform: rotate(12deg);
+
+  z-index: 10;
+
+  transition: transform 0.4s ease;
+}
+
+.floating-badge:hover {
+  transform: rotate(0deg) scale(1.2);
+}
+
+/* =========================================
+   DECORATIVE CIRCLES
+========================================= */
+
+.circle {
+  position: absolute;
+
+  border-radius: 50%;
+
+  opacity: 0.2;
+}
+
+.circle-one {
+  width: 300px;
+  height: 300px;
+
+  background: #7c3aed;
+
+  top: -100px;
+  left: -100px;
+}
+
+.circle-two {
+  width: 250px;
+  height: 250px;
+
+  background: #2563eb;
+
+  bottom: -100px;
+  right: -50px;
+}
+
+/* =========================================
+   SECTION TITLE
+========================================= */
+
+.section-title {
+  text-align: center;
+
+  margin-bottom: 50px;
+}
+
+.section-title p {
+  color: #7c3aed;
+
+  font-size: 13px;
+
+  letter-spacing: 2px;
+
+  font-weight: bold;
+
+  margin-bottom: 10px;
+}
+
+.section-title h2 {
+  font-size: 40px;
+}
+
+/* =========================================
+   COURSES
+========================================= */
+
+.courses {
+  padding: 100px 80px;
+}
+
+.course-container {
+  display: flex;
+
+  gap: 30px;
+
+  max-width: 1100px;
+
+  margin: auto;
+}
+
+.course-card {
+  width: 33.33%;
+
+  background: white;
+
+  padding: 35px;
+
+  border-radius: 15px;
+
+  position: relative;
+
+  transition:
+    transform 0.3s ease,
+    box-shadow 0.3s ease;
+
+  border: 1px solid #eee;
+}
+
+.course-card:hover {
+  transform: translateY(-10px);
+  border: 1px solid #7c3aed;
+
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+}
+
+/* ===================

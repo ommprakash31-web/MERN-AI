@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    font-family: 'Times New Roman', Times, serif;
+    /* background-colour: #dad */
+    /* border */
+
+}
+
+header{
+    height:70px;
+    border: 2px solid red;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
